@@ -30,7 +30,7 @@ pyappms install <program_name>
 
 pyappms install ltf_editor
 
-# Output:
+## Output:
 
 ----Python Application Management System----
 Installing ltf_editor...

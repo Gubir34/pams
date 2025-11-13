@@ -26,7 +26,7 @@ To install and run a program:
 
 pyappms install <program_name>
 
-## Example:
+# Example:
 
 pyappms install ltf_editor
 

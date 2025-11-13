@@ -2,7 +2,7 @@ PyAppMS - Python Application Management System
 
 PyAppMS is a lightweight Python CLI tool that allows you to install and run Python applications directly from GitHub repositories.
 
-Features
+# Features
 
 Search GitHub for a program by name.
 
@@ -14,23 +14,23 @@ Display installation progress in the terminal.
 
 Standardize folder names (e.g., "Ltf Editor" → ltf_editor).
 
-Installation
+# Installation
 
 Install PyAppMS via pip:
 
 pip install pyappms --break-system-packages
 
-Usage
+# Usage
 
 To install and run a program:
 
 pyappms install <program_name>
 
-Example:
+## Example:
 
 pyappms install ltf_editor
 
-Output:
+# Output:
 
 ----Python Application Management System----
 Installing ltf_editor...
@@ -43,7 +43,7 @@ Installation complete!
 If the GitHub repo contains pams.txt, PyAppMS uses the mainfile defined in it.
 If pams.txt does not exist, it defaults to main.py.
 
-Requirements
+ # Requirements
 
 Python 3.7+
 
@@ -53,6 +53,6 @@ Install dependencies manually (if needed):
 
 pip install gitpython requests --break-system-packages
 
-License
+# License
 
 This project is licensed under the MIT License. See the LICENSE file for details.

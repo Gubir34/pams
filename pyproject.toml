@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyams"
+version = "0.1.0"
+description = "Python Application Management System (PyAMS)"
+authors = [
+    { name = "Gubir34" }
+]
+readme = "README.md"
+requires-python = ">=3.7"
+license = { file = "LICENSE" }
+
+dependencies = [
+    "gitpython",
+    "requests"
+]
+
+[project.scripts]
+pyappms = "pyams.cli:main"
